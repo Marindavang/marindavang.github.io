@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World of Treasure Hunt</title>
+    <link rel="icon" type="image/x-icon" href="https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA3L2pvYjk0OS0xMTAucG5n.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap" rel="stylesheet">
+</head>
+<body>
+    <audio controls autoplay>
+        <source src="sea-and-seagull-wave-5932.mp3" type="audio/ogg">
+        <source src="sea-and-seagull-wave-5932.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+
+    <h1>Welcome to the World of Treasure Hunt</h1>
+    <h2>Mini Treasure Hunt Challenge</h2>
+    <img src="abc" alt="Treasure Chest"/>
+    <div class = "container">
+        <p id="lives">Lives: 3</p>
+
+    <ol>
+        <li>Click the boxes to reveal whats on the map.</li>
+        <li>If you click on the bomb, you lose.</li>
+        <li>If you click on the treasure, you win!</li>
+    </ol>
+    <div id="sandLot">
+    <table border=1>
+        <tr>
+            <td id="0"onclick="treasure(0)">?</td>
+            <td id="1"onclick="treasure(1)">?</td>
+            <td id="2"onclick="treasure(2)">?</td>
+            <td id="3"onclick="treasure(3)">?</td>
+            <td id="4"onclick="treasure(4)">?</td>
+        </tr>
+        <tr>
+            <td id="5"onclick="treasure(5)">?</td>
+            <td id="6"onclick="treasure(6)">?</td>
+            <td id="7"onclick="treasure(7)">?</td>
+            <td id="8"onclick="treasure(8)">?</td>
+            <td id="9"onclick="treasure(9)">?</td>
+        </tr>
+        <tr>
+            <td id="10"onclick="treasure(10)">?</td>
+            <td id="11"onclick="treasure(11)">?</td>
+            <td id="12"onclick="treasure(12)">?</td>
+            <td id="13"onclick="treasure(13)">?</td>
+            <td id="14"onclick="treasure(14)">?</td>
+        </tr>
+        <tr>
+            <td id="15"onclick="treasure(15)">?</td>
+            <td id="16"onclick="treasure(16)">?</td>
+            <td id="17"onclick="treasure(17)">?</td>
+            <td id="18"onclick="treasure(18)">?</td>
+            <td id="19"onclick="treasure(19)">?</td>
+        </tr>
+        <tr>
+            <td id="20"onclick="treasure(20)">?</td>
+            <td id="21"onclick="treasure(21)">?</td>
+            <td id="22"onclick="treasure(22)">?</td>
+            <td id="23"onclick="treasure(23)">?</td>
+            <td id="24"onclick="treasure(24)">?</td>
+        </tr>
+    </table>
+    </div>
+    <button type="button" onclick="location.reload">Extra Life!</button>
+    <footer>&copy; Padge & M</footer>
+    <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>
